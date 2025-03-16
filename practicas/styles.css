@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+}
+
+.container header,
+.custom-section {
+    background-color: #0d6efd;
+    border: 1px solid #ccc;
+    color: aqua;
+}

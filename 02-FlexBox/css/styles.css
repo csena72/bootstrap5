@@ -1,0 +1,27 @@
+.contenedor, 
+.contenedor2,
+.contenedor3 {
+    margin-bottom: 20px;
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.contenedor2 {
+    height: 100px;
+}
+
+.contenedor > div,
+.contenedor2 > div,
+.contenedor3 > div {
+    background: rgba(255,255,255, .2);
+    padding: 15px;
+    border: 1px solid #0d6efd;
+}
+
+.contenedor3 > div {
+    padding: 15px 20px;
+}
+
+.contenedor3 {
+    min-height: 100px;
+}

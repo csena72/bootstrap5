@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="email" aria-describedby="ayuda-email">
+                        <div id="ayuda-email" class="form-text">Te enviaremos un mesnsaje de confirmación</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+
+            </div>
+
+            <div class="col-6">
+                <form>
+                    <input type="text" class="form-control form-control-lg mb-3" placeholder="Input grande">
+                    <input type="text" class="form-control form-control-sm mb-3" placeholder="Input pequeño">
+                    <input type="text" class="form-control mb-3" placeholder="Input deshabilitado" disabled>
+                    <input type="text" class="form-control mb-3" placeholder="Input solo lectura" readonly>
+                    <input type="text" class="form-control form-control-plaintext mb-3" placeholder="Input solo lectura" readonly>
+                    <input type="file" class="form-control mb-3">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

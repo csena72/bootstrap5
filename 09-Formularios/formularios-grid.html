@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Grid HTML</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <form>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Juan" class="form-control">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="email" class="form-label">email</label>
+                            <input type="text" id="email" placeholder="correo@dominio,com" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label for="mensaje" class="form-label">Nombre</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                        </div>
+
+                        <div class="col-6 mb-3">
+                            <div class="row">
+
+                                <div class="col-6 mb-3">
+                                    <label for="" class="form-label">Estado civil</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="estado-civil" id="soltero" value="soltero">
+                                        <label class="form-check-label" for="soltero">Soltero</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="estado-civil" id="casado" value="casado">
+                                        <label class="form-check-label" for="casado">Casado</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 mb-3">
+                                    <label for="" class="form-label">Pais</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
